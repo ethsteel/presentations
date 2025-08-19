@@ -66,10 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 </style>
 
-
 ##### 🐍Specifications and Testing for the Ethereum Execution Layer 📐🧪🐍
 
-<img src="https://github.com/ethsteel/ethsteel.github.io/blob/4b7f3c725b8a4ded41538110cac04ceccf166983/static/images/home/steel.png?raw=true" height=150 alignment="center">
+<img src="./img/steel_logo.png" height=150 alignment="center">
 
 <div style="text-align: center">
     <a style="font-size: 0.70em" href="https://github.com/danceratopz/">danceratopz</a><br/>
@@ -91,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 ### EELS and EEST Origins & Growth
 
 <div style="text-align: center">
-<img src="https://notes.ethereum.org/_uploads/H1dcsjlKlg.png" height="500" alt="STEEL Team Timeline">
+<img src="./img/timeline_with_histogram.png" height="500" alt="STEEL Team Timeline">
 </div>
 
 ---
@@ -112,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 | Researchers          | Spec Definition           |
 | Client Developers    | Production Implementation |
 | Security Researchers | Production Testing        |
+
 </div>
 
 ---
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ### Core Responsibilities: EEST🧪
 
-<img src="https://notes.ethereum.org/_uploads/Byhr3ogKee.png" height="460" style="object-fit: contain; max-width: 100%;" alt="EEST Release Timeline">
+<img src="./img/eest_releases_timeline_light_hires.png" height="460" style="object-fit: contain; max-width: 100%;" alt="EEST Release Timeline">
 
 ---
 
@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 ---
 
 ### Challenges and Strategy
+
 <div class="small-table">
 
 |                                                   |                                                   |
@@ -162,11 +163,13 @@ h1, h2, h3, h4, h5, h6 {
 | Estimating & Tracking Spec                        | Introduce more process; Scale the STEEL           |
 | Complete Coverage is Hard                         | Hardening Sessions EIP Checklist, Post Mortems    |
 | Broad responsibility scope: CL, benchmarking, RPC | Scale the STEEL,<br/>Improved team org            |
+
 </div>
 
 ---
 
 ### Links
+
 <div class="small-slide">
 
 Soon: steel.ethereum.foundation
