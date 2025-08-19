@@ -22,6 +22,8 @@ HackMD can be used to create RevealJS slides, but creating a presentation only u
 - Slide preview in VS Code with the [`vscode-reveal` extension](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal).
 - Assistance from Claude to help with any formatting and customization.
 
+Hackmd docs: [RevealJS](https://hackmd.io/c/tutorials/%2F%40docs%2Fcreate-slides-en), [Github Integration](https://hackmd.io/c/tutorials/%2F%40docs%2Fsync-a-note-with-github).
+
 ### Caveats
 
 - It seems like you need to manually pull any changes from Github in the HackMD interface upon each push manually.
