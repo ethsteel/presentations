@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ##### 🐍Specifications and Testing for the Ethereum Execution Layer 📐🧪🐍
 
-<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/steel_logo.png" height=150 alignment="center">
+<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/steel_logo.png?raw=true" height=150 alignment="center">
 
 <div style="text-align: center">
     <a style="font-size: 0.70em" href="https://github.com/danceratopz/">danceratopz</a><br/>
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 ### EELS and EEST Origins & Growth
 
 <div style="text-align: center">
-<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/timeline_with_histogram.png" height="500" alt="STEEL Team Timeline">
+<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/timeline_with_histogram.png?raw=true" height="500" alt="STEEL Team Timeline">
 </div>
 
 ---
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ### Core Responsibilities: EEST🧪
 
-<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/eest_releases_timeline_light_hires.png" height="460" style="object-fit: contain; max-width: 100%;" alt="EEST Release Timeline">
+<img src="https://github.com/ethsteel/presentations/blob/3f2df68762bef84dcb3cefc0b1911c83a3717211/2025-08-18_ef-town-hall/img/eest_releases_timeline_light_hires.png?raw=true" height="460" style="object-fit: contain; max-width: 100%;" alt="EEST Release Timeline">
 
 ---
 
