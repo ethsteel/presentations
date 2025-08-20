@@ -79,94 +79,87 @@ h1, h2, h3, h4, h5, h6 {
 
 ---
 
-### Resources
-
-Overview of EEST tooling to run tests against clients:
-
-- <https://eest.ethereum.org/main/running_tests/running/>
-
-Blobber:
-
-- <https://github.com/marioevz/blobber>
-
----
-
 ### `consume direct`
 
-**State Test Interface**:
+| Interface | Components | Best For |
+|-----------|------------|----------|
+| State Test (`statetest`) | EVM | Rapid EVM development and debugging |
+| Block Test (`blocktest`) | EVM, block processing | Fast block validation testing |
 
-- Client consume tests via a `statetest` interface
-- **Components tested**: EVM
-- **Best for**: Rapid EVM development and debugging
-
-**Block Test Interface**:
-
-- Client consume tests via a `blocktest` interface
-- **Components tested**: EVM, block processing  
-- **Best for**: Fast block validation testing
-
-**Common**: Scope: Module test, Integration test
+**Common**: Environment: None | Scope: Module test, Integration test
 
 ---
 
 ### `consume rlp`
 
-- **Description**: Client imports RLP-encoded blocks upon start-up in Hive
-- **Components tested**: EVM, block processing, RLP import (sync)
-- **Environment**: Staging, Hive
-- **Scope**: System test
-- **Best for**: Historical sync simulation
+|  |  |
+|--|--|
+| Description | Client imports RLP-encoded blocks upon start-up in Hive |
+| Components | EVM, block processing, RLP import (sync) |
+| Environment | Staging, Hive |
+| Scope | System test |
+| Best for | Historical sync simulation |
 
 ---
 
 ### `consume engine`
 
-- **Description**: Client imports blocks via Engine API `EngineNewPayload` in Hive
-- **Components tested**: EVM, block processing, Engine API
-- **Environment**: Staging, Hive
-- **Scope**: System test
-- **Best for**: Post-merge production-like testing
+|  |  |
+|--|--|
+| Description | Client imports blocks via Engine API `EngineNewPayload` in Hive |
+| Components | EVM, block processing, Engine API |
+| Environment | Staging, Hive |
+| Scope | System test |
+| Best for | Post-merge production-like testing |
 
-Sooon: `consume enginex` > 10x faster.
+Soon: `consume enginex` > 10x faster.
 
 ---
 
 ### `consume sync`
 
-- **Description**: Client syncs from another client using Engine API in Hive
-- **Components tested**: EVM, block processing, Engine API, P2P sync
-- **Environment**: Staging, Hive
-- **Scope**: System test
-- **Best for**: Testing client synchronization capabilities
+|  |  |
+|--|--|
+| Description | Client syncs from another client using Engine API in Hive |
+| Components | EVM, block processing, Engine API, P2P sync |
+| Environment | Staging, Hive |
+| Scope | System test |
+| Best for | Testing client synchronization capabilities |
 
 ---
 
 ### `execute remote`
 
-- **Description**: Tests executed against a client via JSON RPC `eth_sendRawTransaction` on a live network
-- **Components tested**: EVM, JSON RPC, mempool, EL-EL/EL-CL interaction (indirectly)
-- **Environment**: Production
-- **Scope**: System Test
-- **Best for**: Real network testing and validation
+|  |  |
+|--|--|
+| Description | Tests executed against a client via JSON RPC `eth_sendRawTransaction` on a live network |
+| Components | EVM, JSON RPC, mempool, EL-EL/EL-CL interaction (indirectly) |
+| Environment | Production |
+| Scope | System Test |
+| Best for | Real network testing and validation |
 
 ---
 
 ### `execute hive`
 
-- **Description**: Tests executed against a client via JSON RPC `eth_sendRawTransaction` in Hive
-- **Components tested**: EVM, JSON RPC, mempool
-- **Environment**: Staging, Hive
-- **Scope**: System test
-- **Best for**: Mempool and transaction execution testing
+|  |  |
+|--|--|
+| Description | Tests executed against a client via JSON RPC `eth_sendRawTransaction` in Hive |
+| Components | EVM, JSON RPC, mempool |
+| Environment | Staging, Hive |
+| Scope | System test |
+| Best for | Mempool and transaction execution testing |
 
 ---
 
 ### `execute eth-config`
 
-- **Description**: Test that the response from the `eth_config` endpoint matches expectations.
-- **Components tested**: JSON RPC, client config.
-- **Environment**: Production
-- **Scope**: System Test
+|  |  |
+|--|--|
+| Description | Test that the response from the `eth_config` endpoint matches expectations |
+| Components | JSON RPC, client config |
+| Environment | Production |
+| Scope | System Test |
 
 ---
 
