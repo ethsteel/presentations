@@ -203,12 +203,28 @@ New repo, relatively unused(?):
 
 ---
 
+### Relevant: The Weld ⚔️🔥
+
+- Now, we have two repos:
+    - ethereum/execution-specs
+    - ethereum/execution-spec-tests
+
+- Q4 2025:
+    - EEST will move to ethereum/execution-specs
+
+
+Aim:
+- Huge dev-ex gain for EIP Authors & Testers.
+- Will make EEST test coverage of EELS trivial.
+
+---
+
 ### Questions
 
 - Do you see any gaps in our work / quick wins?
 - How can EEST help facilitate fuzzing?
   - Are the formats adequate?
-  - No recent progress in`consume direct`, blocker?
+  - No recent progress in `consume direct`, blocker?
   - Can we help with tooling to fuzz devnets?
 - Join EIP hardening sessions?
 
